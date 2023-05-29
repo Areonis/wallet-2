@@ -1,0 +1,30 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  // background-image: url("../../assets/back1.png");
+  // background-position: 100%;
+  // background-size: 20%;
+  margin-bottom: 128px;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+
+  justify-content: space-between;
+  align-content: space-between;
+  align-items: stretch;
+
+  @media (max-width: 520px) {
+  }
+
+  margin-bottom: 128px;
+}
+.image-div {
+  padding: 24px;
+}
+// .image_all {
+//   // height: auto;
+//   // width: 100%;
+// }
